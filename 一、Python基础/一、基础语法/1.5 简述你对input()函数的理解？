@@ -1,0 +1,3 @@
+在Python3中，input()获取用户的输入，不论用户的输入的是什么，获取到的都是字符串类型的。
+在Python2中有raw_input()和input()，raw_input()和Python3中的input()作用是一样的，input()输入的是什么数据类型的，
+获取到的就是什么类型的

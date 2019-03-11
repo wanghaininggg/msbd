@@ -1,0 +1,17 @@
+except: # 捕获所有异常
+except: <异常名>: # 捕获指定异常
+except: <异常名1， 异常名2>: # 捕获异常1 或者异常2
+except: <异常名>,<数据>: # 捕获指定异常及其附加的数据
+except: <异常名1， 异常名2>,<数据>; # 捕获异常名1或者异常名2，及附加的数据
+
+常用异常名
+AttributeError 调用不存在的方法引发的异常
+EOFError 遇到文件末尾引发的异常
+ImportError 导入模块出错引发的异常
+IndexError 列表越界引发的异常
+IOError I/O操作引发的异常
+KeyError 使用字典中不存在的变量名引发的异常
+NameError 使用不存在的变量名引发的异常
+TabError 语句块缩进不正确引发的异常
+ValueError 搜索列表中不存在的值引发的异常
+ZeroDivisionError 除数为零引发的异常

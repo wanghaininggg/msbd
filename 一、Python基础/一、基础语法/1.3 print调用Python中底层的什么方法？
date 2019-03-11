@@ -1,0 +1,1 @@
+print方法默认调用sys.stdout.write方法，即往控制台打印字符串
