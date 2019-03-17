@@ -1,0 +1,2 @@
+有日志。
+Python自带logging模块,调用logging.basicConfig()方法，配置需要的日志等级和相应的参数，Python解释器会按照配置的参数生成响应的日志。
